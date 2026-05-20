@@ -4,3 +4,5 @@ yfinance
 plotly
 selenium
 webdriver-manager
+PySide6
+psycopg2-binary

@@ -1,0 +1,14 @@
+# Mini Project Collection
+
+A collection of small projects created while learning and practicing programming concepts, Python libraries, APIs, automation, data visualization and application structure.
+
+| Project | Location | App Type | Interface | Language | Libraries / APIs | Concepts | Description |
+|---|---|---|---|---|---|---|---|
+| Sorting Algorithm | [folder](content/PYTHON/mini-projects/console/01_sorting_algorithm) | Algorithm | ❯ Console | 🔷 Python | `time`, `random` | Custom algorithm | A custom sorting algorithm created as an early programming experiment. |
+| Currencies NBP API | [folder](content/PYTHON/mini-projects/console/02_currencies_nbp_api) | API client | ❯ Console | 🔷 Python | `requests`, NBP API | API requests, JSON parsing | Fetches currency exchange rates from the Polish NBP API and prints them in the terminal. |
+| Shopping Cart | [folder](content/PYTHON/mini-projects/console/03_shopping_cart) | OOP mini app | ❯ Console | 🔷 Python | `random` | OOP, classes, inheritance, encapsulation | A simple shopping cart model with products, product subclasses and cart value calculation. |
+| Quiz | [folder](content/PYTHON/mini-projects/console/04_quiz) | API quiz app | ❯ Console | 🔷 Python | `requests`, `html`, `random`, Open Trivia DB API | API requests, user input, scoring logic, HTML entity decoding | Downloads quiz questions from an external API, displays them in the terminal and calculates the score. |
+| Multi-thread Website Availability Checker | [folder](content/PYTHON/mini-projects/console/05_multi_thread_website_availability_checker) | Network utility | ❯ Console | 🔷 Python | `requests`, `validators` | multithreading, thread synchronization, file I/O, URL validation | Checks multiple websites using worker threads and saves a status report. |
+| Website Downloader | [folder](content/PYTHON/mini-projects/console/06_website_downloader) | CLI utility | ❯ Console | 🔷 Python | `requests`, `validators`, `urllib.parse` | CLI arguments, URL parsing, file I/O, input validation | Downloads the HTML content of a given website and saves it to a local file. |
+| Stock Info Chart | [folder](content/PYTHON/mini-projects/data_visualization/01_stock_info_yfinance_plotly) | Data visualization | 📊 Plotly chart | 🔷 Python | `yfinance`, `plotly` | financial data, candlestick chart, data visualization | Downloads historical stock data and displays it as a candlestick chart. |
+| Full Page Screenshot Downloader | [folder](content/PYTHON/mini-projects/web_automation/01_full_page_screenshot_downloader) | Web automation | 🌐 Headless browser | 🔷 Python | `selenium`, `webdriver-manager`, Chrome WebDriver | browser automation, screenshots, full-page capture | Uses Selenium to open a webpage, interact with it and save screenshots including a full-page capture. |

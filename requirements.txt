@@ -1,0 +1,6 @@
+requests
+validators
+yfinance
+plotly
+selenium
+webdriver-manager

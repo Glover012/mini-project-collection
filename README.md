@@ -13,7 +13,6 @@ A collection of small projects created while learning programming fundamentals, 
 |**Quiz** ⭐|[folder](content/Python/mini-projects/console/04_quiz)|`requests`, `html`, `random`, Open Trivia DB API|Downloads quiz questions from an external API, displays them in the terminal and calculates the score. This app later evolved into a larger project: [Quiz App](https://github.com/Glover012/quiz-app).|
 |**Multi-threaded Website Availability Checker** ⭐|[folder](content/Python/mini-projects/console/05_multi_thread_website_availability_checker)|`requests`, `validators`, `threading`|Checks multiple websites using worker threads and saves a status report.|
 |Website Downloader|[folder](content/Python/mini-projects/console/06_website_downloader)|`requests`, `validators`, `urllib.parse`|Downloads the HTML content of a given website and saves it to a local file.|
----
 
 ### 🪟 Desktop GUI Applications
 |Project|Interface|Location|Technologies|Description|
@@ -26,23 +25,18 @@ A collection of small projects created while learning programming fundamentals, 
 |**Website Checker** ⭐|Tkinter|[folder](content/Python/mini-projects/tkinter_gui/03_website_checker)|`tkinter`, `requests`, `threading`|A Tkinter app that periodically checks website availability and updates the interface.|
 |**To-Do App** ⭐|Tkinter|[folder](content/Python/mini-projects/tkinter_gui/04_to_do_app)|`tkinter`, `psycopg2`, PostgreSQL|A to-do application backed by a local PostgreSQL database.|
 |Stock Info|Tkinter|[folder](content/Python/mini-projects/tkinter_gui/05_stock_info_yfinance)|`tkinter`, `yfinance`|An app that fetches and displays stock information and recent price history.|
----
 
 ### 📊 Data Visualization
 |Project|Interface|Location|Technologies|Description|
 |---|---|---|---|---|
 |**Stock Info Chart** ⭐|Plotly chart|[folder](content/Python/mini-projects/data_visualization/01_stock_info_yfinance_plotly)|`yfinance`, `plotly`|Downloads historical stock data and displays it as a candlestick chart.|
----
 
 ### 🌐 Web Automation
 |Project|Interface|Location|Technologies|Description|
 |---|---|---|---|---|
 |**Full Page Screenshot Downloader** ⭐|Headless browser|[folder](content/Python/mini-projects/web_automation/01_full_page_screenshot_downloader)|`selenium`, `webdriver-manager`, Chrome WebDriver|Uses Selenium to open a webpage, interact with it and save screenshots including a full-page capture.|
----
 
 ### 🎮 Games
 |Project|Interface|Location|Technologies|Description|
 |---|---|---|---|---|
 |Snake Game|Turtle GUI|[folder](content/Python/mini-projects/turtle/01_snake_game)|`turtle`, `random`, `time`|A simple Snake game built with Turtle graphics.|
----
-

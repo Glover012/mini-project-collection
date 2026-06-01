@@ -1,25 +1,48 @@
 # Mini Project Collection
 
-A collection of small projects created while learning and practicing programming concepts, Python libraries, APIs, automation, data visualization and application structure.
+A collection of small projects created while learning programming fundamentals, GUI development, APIs, automation, data visualization and application structure.
 
-## 🔷 Python
-| Project | Location | App Type | Interface | Libraries / APIs | Concepts | Description |
-|---|---|---|---|---|---|---|
-| Sorting Algorithm | [folder](content/PYTHON/mini-projects/console/01_sorting_algorithm) | Algorithm | ❯ Console | `time`, `random` | Custom algorithm | A custom sorting algorithm created as an early programming experiment. |
-| Currencies NBP API | [folder](content/PYTHON/mini-projects/console/02_currencies_nbp_api) | API client | ❯ Console | `requests`, NBP API | API requests, JSON parsing | Fetches currency exchange rates from the Polish NBP API and prints them in the terminal. |
-| Shopping Cart | [folder](content/PYTHON/mini-projects/console/03_shopping_cart) | OOP mini app | ❯ Console | `random` | OOP, classes, inheritance, encapsulation | A simple shopping cart model with products, product subclasses and cart value calculation. |
-| Quiz | [folder](content/PYTHON/mini-projects/console/04_quiz) | API quiz app | ❯ Console | `requests`, `html`, `random`, Open Trivia DB API | API requests, user input, scoring logic, HTML entity decoding | Downloads quiz questions from an external API, displays them in the terminal and calculates the score. |
-| Multi-thread Website Availability Checker | [folder](content/PYTHON/mini-projects/console/05_multi_thread_website_availability_checker) | Network utility | ❯ Console | `requests`, `validators` | multithreading, thread synchronization, file I/O, URL validation | Checks multiple websites using worker threads and saves a status report. |
-| Website Downloader | [folder](content/PYTHON/mini-projects/console/06_website_downloader) | CLI utility | ❯ Console | `requests`, `validators`, `urllib.parse` | CLI arguments, URL parsing, file I/O, input validation | Downloads the HTML content of a given website and saves it to a local file. |
-| Stock Info Chart | [folder](content/PYTHON/mini-projects/data_visualization/01_stock_info_yfinance_plotly) | Data visualization | 📊 Plotly chart | `yfinance`, `plotly` | financial data, candlestick chart, data visualization | Downloads historical stock data and displays it as a candlestick chart. |
-| Full Page Screenshot Downloader | [folder](content/PYTHON/mini-projects/web_automation/01_full_page_screenshot_downloader) | Web automation | 🌐 Headless browser | `selenium`, `webdriver-manager`, Chrome WebDriver | browser automation, screenshots, full-page capture | Uses Selenium to open a webpage, interact with it and save screenshots including a full-page capture. |
-| Calculator | [folder](content/PYTHON/mini-projects/pyside6_gui/01_calculator) | Calculator | 🪟 PySide6 GUI | `PySide6` | GUI layout, signals, slots, keyboard shortcuts | A desktop calculator built with PySide6, using button input and keyboard shortcuts. |
-| Calendar | [folder](content/PYTHON/mini-projects/pyside6_gui/02_calendar) | Calendar | 🪟 PySide6 GUI | `PySide6` | date handling, grid layout, GUI navigation | A simple calendar app with month navigation and highlighted current day. |
-| Simple Text Editor | [folder](content/PYTHON/mini-projects/pyside6_gui/03_pyside6_simple_text_editor) | Text editor | 🪟 PySide6 GUI | `PySide6`, file dialogs | text editing, file I/O, toolbar actions | A basic desktop text editor with open and save functionality. |
-| Drawing App | [folder](content/PYTHON/mini-projects/pyside6_gui/04_pyside6_drawing_app) | Drawing app | 🪟 PySide6 GUI | `PySide6` | mouse events, painting, color selection, image export | A simple drawing application with color selection and image saving. |
-| Calculator | [folder](content/PYTHON/mini-projects/tkinter_gui/01_calculator) | Calculator | 🧩 Tkinter GUI | `tkinter` | GUI layout, button events, expression evaluation | A simple calculator built with Tkinter. |
-| Currency Converter | [folder](content/PYTHON/mini-projects/tkinter_gui/02_currency_converter_nbp_api) | API client | 🧩 Tkinter GUI | `tkinter`, `requests`, NBP API | API requests, GUI input, currency conversion | A Tkinter app that converts PLN values using exchange rates from the NBP API. |
-| Website Checker | [folder](content/PYTHON/mini-projects/tkinter_gui/03_website_checker) | Network utility | 🧩 Tkinter GUI | `tkinter`, `requests` | background thread, website monitoring, GUI updates | A Tkinter app that periodically checks website availability and updates the interface. |
-| To-Do App | [folder](content/PYTHON/mini-projects/tkinter_gui/04_to_do_app) | CRUD desktop app | 🧩 Tkinter GUI | `tkinter`, `psycopg2`, PostgreSQL | CRUD, database connection, form handling | A to-do application backed by a local PostgreSQL database. |
-| Stock Info | [folder](content/PYTHON/mini-projects/tkinter_gui/05_stock_info_yfinance) | Data viewer | 🧩 Tkinter GUI | `tkinter`, `yfinance` | financial data, GUI input, text display | An app that fetches and displays stock information and recent price history. |
-| Snake Game | [folder](content/PYTHON/mini-projects/turtle/01_snake_game) | Game | 🐢 Turtle GUI | `turtle`, `random`, `time` | game loop, keyboard input, collision detection, OOP | A simple Snake game built with Turtle graphics. |
+## 🐍 Python
+
+### 🖥️ Console Applications
+|Project|Location|Technologies|Description|
+|---|---|---|---|
+|Sorting Algorithm|[folder](content/Python/mini-projects/console/01_sorting_algorithm)|`time`, `random`|A custom sorting algorithm created as an early programming experiment.|
+|NBP Exchange Rates API|[folder](content/Python/mini-projects/console/02_currencies_nbp_api)|`requests`, NBP API|Fetches currency exchange rates from the Polish NBP API and prints them in the terminal.|
+|Shopping Cart|[folder](content/Python/mini-projects/console/03_shopping_cart)|`random`|A simple shopping cart model with products, product subclasses and cart value calculation.|
+|**Quiz** ⭐|[folder](content/Python/mini-projects/console/04_quiz)|`requests`, `html`, `random`, Open Trivia DB API|Downloads quiz questions from an external API, displays them in the terminal and calculates the score. This app later evolved into a larger project: [Quiz App](https://github.com/Glover012/quiz-app).|
+|**Multi-threaded Website Availability Checker** ⭐|[folder](content/Python/mini-projects/console/05_multi_thread_website_availability_checker)|`requests`, `validators`, `threading`|Checks multiple websites using worker threads and saves a status report.|
+|Website Downloader|[folder](content/Python/mini-projects/console/06_website_downloader)|`requests`, `validators`, `urllib.parse`|Downloads the HTML content of a given website and saves it to a local file.|
+---
+
+### 🪟 Desktop GUI Applications
+|Project|Interface|Location|Technologies|Description|
+|---|---|---|---|---|
+|Calculator|PySide6|[folder](content/Python/mini-projects/pyside6_gui/01_calculator)|`PySide6`|A desktop calculator built with PySide6, using button input and keyboard shortcuts.|
+|Calendar|PySide6|[folder](content/Python/mini-projects/pyside6_gui/02_calendar)|`PySide6`|A simple calendar app with month navigation and highlighted current day.|
+|Simple Text Editor|PySide6|[folder](content/Python/mini-projects/pyside6_gui/03_simple_text_editor)|`PySide6`, file dialogs|A basic desktop text editor with open and save functionality.|
+|Calculator|Tkinter|[folder](content/Python/mini-projects/tkinter_gui/01_calculator)|`tkinter`|A simple calculator built with Tkinter.|
+|Currency Converter|Tkinter|[folder](content/Python/mini-projects/tkinter_gui/02_currency_converter_nbp_api)|`tkinter`, `requests`, NBP API|A Tkinter app that converts PLN values using exchange rates from the NBP API.|
+|**Website Checker** ⭐|Tkinter|[folder](content/Python/mini-projects/tkinter_gui/03_website_checker)|`tkinter`, `requests`, `threading`|A Tkinter app that periodically checks website availability and updates the interface.|
+|**To-Do App** ⭐|Tkinter|[folder](content/Python/mini-projects/tkinter_gui/04_to_do_app)|`tkinter`, `psycopg2`, PostgreSQL|A to-do application backed by a local PostgreSQL database.|
+|Stock Info|Tkinter|[folder](content/Python/mini-projects/tkinter_gui/05_stock_info_yfinance)|`tkinter`, `yfinance`|An app that fetches and displays stock information and recent price history.|
+---
+
+### 📊 Data Visualization
+|Project|Interface|Location|Technologies|Description|
+|---|---|---|---|---|
+|**Stock Info Chart** ⭐|Plotly chart|[folder](content/Python/mini-projects/data_visualization/01_stock_info_yfinance_plotly)|`yfinance`, `plotly`|Downloads historical stock data and displays it as a candlestick chart.|
+---
+
+### 🌐 Web Automation
+|Project|Interface|Location|Technologies|Description|
+|---|---|---|---|---|
+|**Full Page Screenshot Downloader** ⭐|Headless browser|[folder](content/Python/mini-projects/web_automation/01_full_page_screenshot_downloader)|`selenium`, `webdriver-manager`, Chrome WebDriver|Uses Selenium to open a webpage, interact with it and save screenshots including a full-page capture.|
+---
+
+### 🎮 Games
+|Project|Interface|Location|Technologies|Description|
+|---|---|---|---|---|
+|Snake Game|Turtle GUI|[folder](content/Python/mini-projects/turtle/01_snake_game)|`turtle`, `random`, `time`|A simple Snake game built with Turtle graphics.|
+---
+

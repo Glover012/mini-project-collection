@@ -1,6 +1,8 @@
 # Mini Project Collection
 
-A collection of small projects and learning notes created while learning programming fundamentals, PostgreSQL, GUI development, APIs, automation, data visualization and application structure.
+This repository is a learning archive containing small projects and notes created while I was learning programming fundamentals. It includes examples related to PostgreSQL, GUI development, APIs, automation, data visualization, basic application structure, and general programming concepts.
+
+Repository does not represent production-ready code or my current level of knowledge. It is meant to document my learning process and the topics I explored along the way.
 
 ## 🚀 Table of Contents
   - [🐍 Python - Mini Projects](#-python---mini-projects)
